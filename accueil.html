@@ -1,0 +1,337 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="17544887082107972280901109593979.png">
+    <link rel="stylesheet" href="../vendor/css/jquery-te-1.4.0.css">
+    <link rel="stylesheet" href="../vendor/css/jquery-te-1.4.0.css">
+    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../vendor/fonta/font/css/all.min.css">
+    <link rel="stylesheet" href="cssACCUEILL.css">
+    <title>Accueil</title>
+</head>
+<body >
+    <div class="container-fluid " id="container">
+        <!--navbar-->
+       <div class="row  navbar">
+           <p class="col-md-3 text-white">FANNY STORE</p>
+           <div class="input-group  col-md-5 offset-0">
+              <input type="text" class="form-control border-white shadow-none">
+              <button class="border border-white  pl-3 pr-3    btn   search shadow-none"><span class="text-light"><i class="fas fa-search"></i></span></button>
+           </div>
+           <div class="col-md-2 offset-2 fa-lg ">
+              <i class="far fa-user text-white mr-5"></i>
+              <i class="far fa-heart text-white ml-3 mr-2"></i>
+              <i class="fas fa-shopping-cart text-white ml-5"></i>
+           </div>
+       </div>
+       <div class="row border-bottom pt-2 pb-0 nav2">
+           <p class="col-md-1"></p>
+           <button class="col-md-1 text-center btn l1" id="goaccueil">ACCUEIL</button>
+           <button class="col-md-1 text-center btn l1">A propos</button>
+           <button class="col-md-1 text-center btn l1">Categorie</button>
+           <button class="col-md-1 text-center btn l1">Pass</button>
+           <button class="col-md-1 text-center btn l1">Menu1</button>
+           <button class="col-md-1 text-center btn l1">Menu2</button>
+           <button class="col-md-2 text-center btn l1">NOUS contacter</button>
+           <button class="col-md-2 text-center btn l1">SE CONNECTER</button>
+           <p class="col-md-1"></p>
+       </div>
+        <!-- page d'accueil-->
+       <div id="ACCUEIL">
+            <!-- container-->
+            <div class="row  pt-3 pb-5" style="background-color: rgba(255, 140, 0, 0.082);">
+                        <div class="col-md-6 mt-5">
+                            <div class="row">
+                                <div class="col-md-11">
+                                    <h1 class="color">
+                                        TOUS CE DONT VOUS AVEZ BESOIN AU MEME ENDROIT
+                                    </h1>
+                                    <h4>Explorer notre grande collection de produit de premier choix et de tres bonne qualité, cela a bon prix.commandez et faites vous livrez</h4>
+                                </div>
+                                <div class="col-md-1">
+
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn mt-5 w-100 P-2 background text-white">ACHETER</button>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <button class="btn  ml-3 mt-5 w-100 p-2 colborder " id="choixcategorie">CHOISIR UNE CATEGORIE</button>
+                                </div>
+                                <div id="modal"></div>
+                                <div class="overlay1" id="overlay">
+                                <h4><button class="btn col-md-12 l2" id="peruques"> PERRUQUES</button></h4>
+                                <h4><button class="btn col-md-12 l2" id="pantalons"> PANTALONS</button></h4> 
+                                <h4><button class="btn col-md-12 l2" id="chemises"> CHEMISES</button></h4> 
+                                <h4><button class="btn col-md-12 l2" id="sac"> SAC</button></h4>  
+                                </div>
+                                <div class="col-md-5">
+
+                                </div>
+                                <div class="col-md-3 mt-4 ml-3 ">
+                                    <small><i class="fas fa-truck "></i> livraison gratuite</small>
+                                </div>
+                                <div class="col-md-3 mt-4  ">
+                                    <small><i class="fas fa-shield-alt"></i> paiement securisé</small>
+                                </div>
+                                <div class="col-md-3 mt-4  ">
+                                    <small><i class="far fa-check-circle"></i> qualité garantie</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-5">
+                            <div class="row">
+                                <div class="col-md-4">
+
+                                </div>
+                                <div class="col-md-5 mt-3  px-0 pb-0 shadow">
+                                    <div class=" ">
+                                        <div class=" w-100">
+                                            <div class=" card-head   text-primary ">
+                                            <img src="c:\Users\HP\Documents\4月11日(1).mp4.webp" alt="un produit" class="w-100 arrondis">
+                                            </div>
+                                            <div class="card-body bg-light">
+                                            <span class="row ">
+                                                <p class="col-md-2 " id="sa">Utilisateurs</p>
+                                                <p class="col-md-2 offset-7 " ><small  class="rounded-pill px-2 text-white" style="background-color: rgb(69, 69, 156);">36</small> </p>
+                                            </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+            <div class="row mt-3 mb-2 ml-5">
+                    <div class="col-md-4 ml-4 color2">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button class=" btn-sm btn-dark mt-2 rounded-pill border-0 b1">
+                                    <small>Acheter maintenant</small>
+                                </button>
+                                <h3 class="col-md-5 pl-0 pt-3">NOUVEAUTES</h3>
+                                <button class=" btn btn-dark mt-2 rounded-pill border-0">
+                                    <small>Explorez notre collection <i class="fas fa-arrow-right pl-2"></i></small>
+                                </button>
+                            </div>
+                            <div class="col-md-6 pl-5 py-2">  
+                            <img src="c:\Users\HP\Pictures\i153782-burger-largejpg.jpeg" alt="un produit" class="w-100 arrondis2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ml-4 color2">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3 class="col-md-5 pl-0 pt-3">PERUQUES</h3>
+                                <button class=" btn-sm  mt-4 rounded-pill border-0 b1">
+                                    <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                                </button>
+                            </div>
+                            <div class="col-md-6 py-2">  
+                            <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0008_preview_rev_1.png" alt="un produit" class="w-100 arrondis2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ml-4 color2">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3 class="col-md-5 pl-0 pt-3">ACCESSOIRES</h3>
+                                <button class=" btn-sm  mt-4 rounded-pill border-0 b1">
+                                    <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                                </button>
+                            </div>
+                            <div class="col-md-6  py-2 pt-5">  
+                            <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0006_preview_rev_1.png" alt="un produit" class="w-100 arrondis2 ">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- LIGNE PERUQUES -->
+            <div class="row ml-5">
+                    <h3 class="col-md-12 ">PERUQUES</h3>
+                    <div class="col-md-2 card1 p-0 ml-5" id="div1">
+                        <div class=" bg-dark card-head1 produit">
+                            <button class="btn btn1 ml-2 mt-2 text-white ">LIMITED</button>
+                            <i class="far fa-heart  pl-5 like" id="icone"></i>
+                            <i class="fas fa-exchange-alt  pl-3 "></i>
+                            <i class="fas fa-search-plus   pl-3 "></i>
+                            <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0010_preview_rev_2.png" alt="une peruque" class="w-100 p-0">
+                        </div>
+                        <div class="">
+                            <p class="pl-3">PREMIERE QUALITE DE PERUQUE LONGUE</p>
+                            <button class=" btn btn2 border-0 b1 ml-1">
+                                <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-2 card1 p-0 ml-5">
+                        <div class=" bg-dark card-head1 produit">
+                            <button class="btn btn1 ml-2 mt-2 text-white ">LIMITED</button>
+                            <i class="far fa-heart  pl-5 like"></i>
+                            <i class="fas fa-exchange-alt  pl-3 "></i>
+                            <i class="fas fa-search-plus   pl-3 mb-4"></i>
+                            <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0012_preview_rev_1.png" alt="une peruque" class="w-100 mt-5">
+                        </div>
+                        <div class="">
+                            <p class="pl-3">PREMIERE QUALITE DE PERUQUE LONGUE</p>
+                            <button class=" btn btn2 border-0 b1 ml-1 ">
+                                <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-2 card1 p-0 ml-5">
+                        <div class=" bg-dark card-head1 produit">
+                            <button class="btn btn1 ml-2 mt-2 text-white ">LIMITED</button>
+                            <i class="far fa-heart pl-5 like"></i>
+                            <i class="fas fa-exchange-alt pl-3 "></i>
+                            <i class="fas fa-search-plus  pl-3 mb-4"></i>
+                            <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0009_preview_rev_1.png" alt="une peruque" class="w-100 mt-2">
+                        </div>
+                        <div class="">
+                            <p class="pl-3">PREMIERE QUALITE DE PERUQUE LONGUE</p>
+                            <button class=" btn btn2 border-0 b1 ml-1 ">
+                                <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-2 card1 p-0 ml-5">
+                        <div class=" bg-dark card-head1 produit">
+                            <button class="btn btn1 ml-2 mt-2 text-white">LIMITED</button>
+                            <i class="far fa-heart pl-5 like"></i>
+                            <i class="fas fa-exchange-alt pl-3 "></i>
+                            <i class="fas fa-search-plus  pl-3 mb-4"></i>
+                            <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0013_preview_rev_1.png" alt="une peruque" class="w-100 mt-4">
+                        </div>
+                        <div class="">
+                            <p class="pl-3">PREMIERE QUALITE DE PERUQUE LONGUE</p>
+                            <button class=" btn btn2 border-0 b1 ml-1 ">
+                                <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                            </button>
+                        </div>
+                    </div>
+            </div>
+            <!-- lignes jeans -->
+            <div class="row ml-5">
+               <h3 class="col-md-12 ">JEANS</h3>
+               <div class="col-md-2 card1 p-0 ml-5">
+                    <div class=" bg-dark card-head1 produit">
+                        <button class="btn btn1 ml-2 mt-2 text-white">LIMITED</button>
+                        <i class="far fa-heart pl-5 like"></i>
+                        <i class="fas fa-exchange-alt pl-3 "></i>
+                        <i class="fas fa-search-plus pl-3 mb-4"></i>
+                        <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0005_preview_rev_1.png" alt="haut jeans" class="w-100 mt-4">
+                    </div>
+                    <div class="">
+                        <p class="pl-3">HAUTS JEANS DE PREMIERE QUALITES</p>
+                        <button class=" btn btn2 border-0 b1 ml-1 ">
+                            <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                        </button>
+                    </div>
+               </div>
+               <div class="col-md-2 card1 p-0 ml-5">
+                    <div class=" bg-dark card-head1 produit">
+                        <button class="btn btn1 ml-2 mt-2 text-white ">LIMITED</button>
+                        <i class="far fa-heart pl-5 "></i>
+                        <i class="fas fa-exchange-alt pl-3 "></i>
+                        <i class="fas fa-search-plus pl-3 mb-5"></i>
+                        <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0006_preview_rev_1.png" alt="une peruque" class="w-100 mt-5">
+                    </div>
+                    <div class="">
+                        <p class="pl-3">JACKET EN JEANS DE BONNE QUALITE</p>
+                        <button class=" btn btn2 border-0 b1 ml-1 ">
+                            <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                        </button>
+                    </div>
+               </div>
+               <div class="col-md-2 card1 p-0 ml-5">
+                    <div class=" bg-dark card-head1 produit">
+                        <button class="btn btn1 ml-2 mt-2 text-white ">LIMITED</button>
+                        <i class="far fa-heart pl-5 "></i>
+                        <i class="fas fa-exchange-alt pl-3 "></i>
+                        <i class="fas fa-search-plus pl-3 mb-4"></i>
+                        <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0007_preview_rev_1.png" alt="une peruque" class="w-100 mt-4">
+                    </div>
+                    <div class="">
+                        <p class="pl-3">PANTALONS JEANS DE PREMIERE QUALITE</p>
+                        <button class=" btn btn2 border-0 b1 ml-1 ">
+                            <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                        </button>
+                    </div>
+               </div>
+         
+            </div>
+       </div>
+       <!-- page des peruques -->
+       <div id="chaussures"  style="background-color: rgba(255, 140, 0, 0.082);" class="m-0 p-0 ">
+            <div class="row ml-5">
+                <h3 class="col-md-12 ">PERUQUES</h3>
+                <div class="col-md-2 card1 p-0 ml-5" id="div1">
+                    <div class=" bg-dark card-head1">
+                        <button class="btn btn1 ml-2 mt-2 text-white">LIMITED</button>
+                        <i class="far fa-heart text-white pl-5 "></i>
+                        <i class="fas fa-exchange-alt text-white pl-3 "></i>
+                        <i class="fas fa-search-plus  text-white pl-3 "></i>
+                        <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0010_preview_rev_2.png" alt="une peruque" class="w-100 p-0">
+                    </div>
+                    <div class="">
+                        <p class="pl-3">PREMIERE QUALITE DE PERUQUE LONGUE</p>
+                        <button class=" btn btn2 border-0 b1 ml-1 ">
+                            <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 card1 p-0 ml-5">
+                    <div class=" bg-dark card-head1 ">
+                        <button class="btn btn1 ml-2 mt-2 text-white ">LIMITED</button>
+                        <i class="far fa-heart text-white pl-5 "></i>
+                        <i class="fas fa-exchange-alt text-white pl-3 "></i>
+                        <i class="fas fa-search-plus  text-white pl-3 mb-4"></i>
+                        <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0012_preview_rev_1.png" alt="une peruque" class="w-100 mt-5">
+                    </div>
+                    <div class="">
+                        <p class="pl-3">PREMIERE QUALITE DE PERUQUE LONGUE</p>
+                        <button class=" btn btn2 border-0 b1 ml-1 ">
+                            <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 card1 p-0 ml-5">
+                    <div class=" bg-dark card-head1 ">
+                        <button class="btn btn1 ml-2 mt-2 text-white ">LIMITED</button>
+                        <i class="far fa-heart text-white pl-5 "></i>
+                        <i class="fas fa-exchange-alt text-white pl-3 "></i>
+                        <i class="fas fa-search-plus  text-white pl-3 mb-4"></i>
+                        <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0009_preview_rev_1.png" alt="une peruque" class="w-100 mt-2">
+                    </div>
+                    <div class="">
+                        <p class="pl-3">PREMIERE QUALITE DE PERUQUE LONGUE</p>
+                        <button class=" btn btn2 border-0 b1 ml-1 ">
+                            <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-2 card1 p-0 ml-5">
+                    <div class=" bg-dark card-head1">
+                        <button class="btn btn1 ml-2 mt-2 text-white">LIMITED</button>
+                        <i class="far fa-heart text-white pl-5 "></i>
+                        <i class="fas fa-exchange-alt text-white pl-3 "></i>
+                        <i class="fas fa-search-plus  text-white pl-3 mb-4"></i>
+                        <img src="c:\Users\HP\Pictures\images detoures\IMG-20250813-WA0013_preview_rev_1.png" alt="une peruque" class="w-100 mt-4">
+                    </div>
+                    <div class="">
+                        <p class="pl-3">PREMIERE QUALITE DE PERUQUE LONGUE</p>
+                        <button class=" btn btn2 border-0 b1 ml-1 ">
+                            <small>Acheter maintenant <i class="fas fa-arrow-right pl-2"></i></small>
+                        </button>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <script src="accueil.js"></script>
+    <script src="../vendor/jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+    <script src="../vendor/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+ 
