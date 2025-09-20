@@ -8,6 +8,12 @@
     border-top-left-radius: 0%;
     border-bottom-left-radius: 0%;
 }
+.nav2{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: white;
+}
 .color{
     color: darkorange;
 }
