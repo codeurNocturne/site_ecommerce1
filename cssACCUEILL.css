@@ -16,6 +16,10 @@
 }
 .color{
     color: darkorange;
+
+}
+.loup{
+    cursor: pointer;
 }
 .background{
     background-color: darkorange;
@@ -94,6 +98,13 @@
 }
 .produit i{
     color: white;
+}
+.produit{
+    overflow: hidden;
+}
+.scale{
+    max-width: 100%;
+    max-height: 100%;
 }
 .like:hover{
     cursor: pointer;
